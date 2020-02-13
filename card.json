@@ -18,7 +18,7 @@
           "type": "IFRAME",
           "width": 890,
           "height": 748,
-          "uri": "https://app.chargebee.com",
+          "uri": "https://google.com",
           "label": "Edit",
           "associatedObjectProperties": []
         },
@@ -26,7 +26,7 @@
           "type": "IFRAME",
           "width": 890,
           "height": 748,
-           "uri": "https://app.chargebee.com",
+           "uri": "https://google.com",
           "label": "Reassign",
           "associatedObjectProperties": []
         },
@@ -34,7 +34,7 @@
           "type": "ACTION_HOOK",
           "httpMethod": "PUT",
           "associatedObjectProperties": [],
-           "uri": "https://app.chargebee.com",
+           "uri": "https://google.com",
           "label": "Resolve"
         },
         {
@@ -46,7 +46,7 @@
           "associatedObjectProperties": [
             "protected_account"
           ],
-           "uri": "https://app.chargebee.com",
+           "uri": "https://google.com",
           "label": "Delete"
         }
       ]
@@ -87,7 +87,7 @@
             "type": "IFRAME",
             "width": 890,
             "height": 748,
-             "uri": "https://app.chargebee.com",
+             "uri": "https://google.com",
             "label": "Edit"
           },
           {
@@ -99,7 +99,7 @@
             "associatedObjectProperties": [
               "protected_account"
             ],
-             "uri": "https://app.chargebee.com",
+             "uri": "https://google.com",
             "label": "Delete"
           }
         ]
@@ -109,14 +109,14 @@
       "type": "IFRAME",
       "width": 890,
       "height": 748,
-       "uri": "https://app.chargebee.com",
+       "uri": "https://google.com",
       "label": "Settings"
     },
     "primaryAction": {
       "type": "IFRAME",
       "width": 890,
       "height": 748,
-      "uri": "https://app.chargebee.com/",
+      "uri": "https://google.com/",
       "label": "Create Ticket1"
     }
   }
