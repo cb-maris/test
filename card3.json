@@ -113,10 +113,19 @@
       "label": "Settings"
     },
     "primaryAction": {
-      "type": "ACTION_HOOK",
+      "type": "IFRAME",
       "width": 890,
       "height": 748,
       "uri": "https://maris-test.chargebee.com/freshplug/details_card?customer_email=stagetest1@cbautosync21.com&sandbox=true&no_padding=true&is_zendesk=false&is_freshdesk=true",
       "label": "Create Ticket2"
-    }
+    },
+    "settingsAction":{
+  "type": "ACTION_HOOK",
+  "httpMethod": "POST",
+  "uri": "https://maris-test.chargebee.com/freshplug/details_card?customer_email=stagetest1@cbautosync21.com&sandbox=true&no_padding=true&is_zendesk=false&is_freshdesk=true",
+  "label": "Example action",
+  "associatedObjectProperties": [
+    "some_crm_property"
+  ]
+}
   }
