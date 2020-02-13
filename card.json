@@ -18,7 +18,7 @@
           "type": "IFRAME",
           "width": 890,
           "height": 748,
-          "uri": "https://example.com/edit-iframe-contents",
+          "uri": "https://app.chargebee.com",
           "label": "Edit",
           "associatedObjectProperties": []
         },
@@ -26,7 +26,7 @@
           "type": "IFRAME",
           "width": 890,
           "height": 748,
-          "uri": "https://example.com/reassign-iframe-contents",
+           "uri": "https://app.chargebee.com",
           "label": "Reassign",
           "associatedObjectProperties": []
         },
@@ -34,7 +34,7 @@
           "type": "ACTION_HOOK",
           "httpMethod": "PUT",
           "associatedObjectProperties": [],
-          "uri": "https://example.com/tickets/245/resolve",
+           "uri": "https://app.chargebee.com",
           "label": "Resolve"
         },
         {
@@ -46,7 +46,7 @@
           "associatedObjectProperties": [
             "protected_account"
           ],
-          "uri": "https://example.com/tickets/245",
+           "uri": "https://app.chargebee.com",
           "label": "Delete"
         }
       ]
@@ -87,7 +87,7 @@
             "type": "IFRAME",
             "width": 890,
             "height": 748,
-            "uri": "https://example.com/edit-iframe-contents",
+             "uri": "https://app.chargebee.com",
             "label": "Edit"
           },
           {
@@ -99,7 +99,7 @@
             "associatedObjectProperties": [
               "protected_account"
             ],
-            "uri": "https://example.com/tickets/245",
+             "uri": "https://app.chargebee.com",
             "label": "Delete"
           }
         ]
@@ -109,7 +109,7 @@
       "type": "IFRAME",
       "width": 890,
       "height": 748,
-      "uri": "https://example.com/settings-iframe-contents",
+       "uri": "https://app.chargebee.com",
       "label": "Settings"
     },
     "primaryAction": {
