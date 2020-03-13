@@ -1,0 +1,25 @@
+{"results": [{
+ "amount_due": {
+   "currencyCode": "USD",
+   "value": "10.00"
+ },
+ "amount_paid": {
+   "currencyCode": "USD",
+   "value": "0.00"
+ },
+ "credits_applied": {
+   "currencyCode": "USD",
+   "value": "0.00"
+ },
+ "date": "2020-03-13",
+ "due_date": "2020-03-13",
+ "net_term_days": 0,
+ "objectId": 666,
+ "status": "PAID",
+ "subscription_id": "johnjanesubs1",
+ "title": "15",
+ "total": {
+   "currencyCode": "USD",
+   "value": "0.00"
+ }
+}]}
