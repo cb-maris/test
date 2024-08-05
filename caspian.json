@@ -2,8 +2,8 @@
   "info" : {
     "cb-api-version" : 2,
     "cb-product-catalog-version" : 2,
-    "cb-open-api-spec-generated-on" : 1722507093922,
-    "edp-caspian-spec-generated-on" : 1722507576768
+    "cb-open-api-spec-generated-on" : 1722498753403,
+    "edp-caspian-spec-generated-on" : 1722844716077
   },
   "schemas" : {
     "credit_note_line_item_taxes" : {
@@ -687,10 +687,6 @@
           "max_length" : 3,
           "source_name" : "local_currency_code"
         },
-        "deleted" : {
-          "type" : "boolean",
-          "source_name" : "deleted"
-        },
         "shipping_address_country" : {
           "type" : "string",
           "nullable" : false,
@@ -736,11 +732,6 @@
           "type" : "timestamp",
           "nullable" : false,
           "source_name" : "updated_at"
-        },
-        "deleted" : {
-          "type" : "boolean",
-          "default" : "false",
-          "source_name" : "deleted"
         }
       },
       "is_parent_resource" : true,
@@ -2349,10 +2340,6 @@
           "nullable" : false,
           "max_length" : 3,
           "source_name" : "local_currency_code"
-        },
-        "deleted" : {
-          "type" : "boolean",
-          "source_name" : "deleted"
         },
         "shipping_address_country" : {
           "type" : "string",
@@ -4033,10 +4020,6 @@
           "type" : "boolean",
           "source_name" : "parent_account_access_send_invoice_emails"
         },
-        "deleted" : {
-          "type" : "boolean",
-          "source_name" : "deleted"
-        },
         "phone" : {
           "type" : "string",
           "nullable" : false,
@@ -4537,10 +4520,6 @@
           "max_length" : 100,
           "source_name" : "reference_number"
         },
-        "deleted" : {
-          "type" : "boolean",
-          "source_name" : "deleted"
-        },
         "custom_payment_method_name" : {
           "type" : "string",
           "nullable" : false,
@@ -4985,10 +4964,6 @@
           "nullable" : false,
           "max_length" : 33,
           "source_name" : "plan_free_quantity_in_decimal"
-        },
-        "deleted" : {
-          "type" : "boolean",
-          "source_name" : "deleted"
         },
         "shipping_address_country" : {
           "type" : "string",
