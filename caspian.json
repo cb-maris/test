@@ -2,8 +2,8 @@
   "info" : {
     "cb-api-version" : 2,
     "cb-product-catalog-version" : 2,
-    "cb-open-api-spec-generated-on" : 1724673909351,
-    "edp-caspian-spec-generated-on" : 1724736935637
+    "cb-open-api-spec-generated-on" : 1725277080941,
+    "edp-caspian-spec-generated-on" : 1725348014909
   },
   "schemas" : {
     "credit_note_line_item_taxes" : {
@@ -177,10 +177,11 @@
           "nullable" : false,
           "max_length" : 50
         },
-        "id" : {
+        "tax_withheld_id" : {
           "type" : "string",
           "nullable" : false,
-          "max_length" : 40
+          "max_length" : 40,
+          "source_name" : "id"
         }
       },
       "is_parent_resource" : false,
@@ -840,10 +841,11 @@
           "nullable" : false,
           "max_length" : 40
         },
-        "id" : {
+        "payment_txn_id" : {
           "type" : "string",
           "nullable" : false,
-          "max_length" : 40
+          "max_length" : 40,
+          "source_name" : "id"
         }
       },
       "is_parent_resource" : false,
@@ -2613,10 +2615,11 @@
           "nullable" : false,
           "max_length" : 40
         },
-        "txn_id" : {
+        "refund_txn_id" : {
           "type" : "string",
           "nullable" : false,
-          "max_length" : 40
+          "max_length" : 40,
+          "source_name" : "txn_id"
         }
       },
       "is_parent_resource" : false,
@@ -2708,10 +2711,11 @@
           "nullable" : false,
           "max_length" : 50
         },
-        "id" : {
+        "tax_withheld_id" : {
           "type" : "string",
           "nullable" : false,
-          "max_length" : 40
+          "max_length" : 40,
+          "source_name" : "id"
         }
       },
       "is_parent_resource" : false,
@@ -3585,6 +3589,11 @@
         "shipping_address_state" : {
           "type" : "string",
           "max_length" : 50
+        },
+        "contract_term_billing_cycle_on_renewal" : {
+          "type" : "integer",
+          "minimum_value" : 1,
+          "maximum_value" : 100
         },
         "remaining_billing_cycles" : {
           "type" : "integer",
