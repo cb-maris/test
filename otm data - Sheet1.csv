@@ -1,0 +1,55 @@
+subscriptions.subscription_id,subscriptions.customer_id,subscription_histories.mrr,.mrr_previous,.mrr_change,subscription_histories.record_start_at,.record_end_at,subscriptions.currency_code,subscription_histories.status,.status_previous
+Active-to-Cancel,customer,1000,null,null,2024-11-13 10:47:58,2024-11-13 11:22:30,USD,ACTIVE,null
+Active-to-Cancel,customer,0.00E+00,1000,-1000,2024-11-13 11:22:31,null,USD,CANCELLED,ACTIVE
+Active-to-Paused,customer,1000,null,null,2024-11-13 10:48:45,2024-11-13 11:23:07,USD,ACTIVE,null
+Active-to-Paused,customer,0.00E+00,1000,-1000,2024-11-13 11:23:08,null,USD,PAUSED,ACTIVE
+Active-to-Cancel-to-Reactive,customer,1000,null,null,2024-11-13 10:50:25,2024-11-13 11:23:14,USD,ACTIVE,null
+Active-to-Cancel-to-Reactive,customer,0.00E+00,1000,-1000,2024-11-13 11:23:15,2024-11-13 11:53:35,USD,CANCELLED,ACTIVE
+Active-to-Cancel-to-Reactive,customer,1000,0.00E+00,1000,2024-11-13 11:53:36,null,USD,ACTIVE,CANCELLED
+Active-to-Paused-to-Resumed,customer,1000,null,null,2024-11-13 10:50:49,2024-11-13 11:23:39,USD,ACTIVE,null
+Active-to-Paused-to-Resumed,customer,0.00E+00,1000,-1000,2024-11-13 11:23:40,2024-11-13 11:54:44,USD,PAUSED,ACTIVE
+Active-to-Paused-to-Resumed,customer,1000,0.00E+00,1000,2024-11-13 11:54:45,null,USD,ACTIVE,PAUSED
+Trial-to-Active,customer,1000,null,null,2024-11-13 11:23:27,2024-11-13 11:24:33,USD,ACTIVE,null
+Trial-to-Active,customer,1000,1000,0.00E+00,2024-11-13 11:24:34,null,USD,ACTIVE,ACTIVE
+Trial-to-Cancelled,customer,0.00E+00,null,null,2024-11-13 10:57:12,2024-11-13 11:23:49,USD,TRIAL,null
+Trial-to-Cancelled,customer,0.00E+00,0.00E+00,0.00E+00,2024-11-13 11:23:50,null,USD,CANCELLED,TRIAL
+Daily-to-weekly,customer,30416,null,null,2024-11-13 10:58:17,2024-11-13 11:24:39,USD,ACTIVE,null
+Daily-to-weekly,customer,4345.14,30416,-26070.86,2024-11-13 11:24:40,2024-11-13 11:25:41,USD,ACTIVE,ACTIVE
+Daily-to-weekly,customer,4345.14,4345.14,0.00E+00,2024-11-13 11:25:42,null,USD,ACTIVE,ACTIVE
+Daily-to-monthly,customer,30416,null,null,2024-11-13 10:59:30,2024-11-13 11:25:08,USD,ACTIVE,null
+Daily-to-monthly,customer,1000,30416,-29416,2024-11-13 11:25:09,2024-11-13 11:26:10,USD,ACTIVE,ACTIVE
+Daily-to-monthly,customer,1000,1000,0.00E+00,2024-11-13 11:26:11,null,USD,ACTIVE,ACTIVE
+Daily-to-yearly,customer,30416,null,null,2024-11-13 11:00:09,2024-11-13 11:25:39,USD,ACTIVE,null
+Daily-to-yearly,customer,83.33,30416,-30332.67,2024-11-13 11:25:40,2024-11-13 11:26:41,USD,ACTIVE,ACTIVE
+Daily-to-yearly,customer,83.33,83.33,0.00E+00,2024-11-13 11:26:42,null,USD,ACTIVE,ACTIVE
+Daily-to-custom,customer,30416,null,null,2024-11-13 11:00:34,2024-11-13 11:26:02,USD,ACTIVE,null
+Daily-to-custom,customer,200,30416,-30216,2024-11-13 11:26:03,2024-11-13 11:27:03,USD,ACTIVE,ACTIVE
+Daily-to-custom,customer,200,200,0.00E+00,2024-11-13 11:27:04,null,USD,ACTIVE,ACTIVE
+Yearly-to-Monthly,customer,83.33,null,null,2024-11-13 11:01:12,2024-11-13 11:28:17,USD,ACTIVE,null
+Yearly-to-Monthly,customer,1000,83.33,916.67,2024-11-13 11:28:18,2024-11-13 11:29:18,USD,ACTIVE,ACTIVE
+Yearly-to-Monthly,customer,1000,1000,0.00E+00,2024-11-13 11:29:19,null,USD,ACTIVE,ACTIVE
+Yearly-to-daily,customer,83.33,null,null,2024-11-13 11:01:43,2024-11-13 11:29:19,USD,ACTIVE,null
+Yearly-to-daily,customer,30416,83.33,30332.67,2024-11-13 11:29:20,2024-11-13 11:30:21,USD,ACTIVE,ACTIVE
+Yearly-to-daily,customer,30416,30416,0.00E+00,2024-11-13 11:30:22,null,USD,ACTIVE,ACTIVE
+Yearly-to-weekly,customer,83.33,null,null,2024-11-13 11:02:06,2024-11-13 11:29:44,USD,ACTIVE,null
+Yearly-to-weekly,customer,4345.14,83.33,4261.81,2024-11-13 11:29:45,2024-11-13 11:30:45,USD,ACTIVE,ACTIVE
+Yearly-to-weekly,customer,4345.14,4345.14,0.00E+00,2024-11-13 11:30:46,null,USD,ACTIVE,ACTIVE
+Yearly-to-custom,customer,83.33,null,null,2024-11-13 11:02:31,2024-11-13 11:29:55,USD,ACTIVE,null
+Yearly-to-custom,customer,200,83.33,116.67,2024-11-13 11:29:56,2024-11-13 11:30:57,USD,ACTIVE,ACTIVE
+Yearly-to-custom,customer,200,200,0.00E+00,2024-11-13 11:30:58,null,USD,ACTIVE,ACTIVE
+INR-currency,customer,1000,null,null,2024-11-13 11:02:56,2024-11-13 11:03:56,INR,ACTIVE,null
+INR-currency,customer,1000,1000,0.00E+00,2024-11-13 11:03:57,null,INR,ACTIVE,ACTIVE
+JPY-currency,customer,1000,null,null,2024-11-13 11:03:30,2024-11-13 11:04:30,JPY,ACTIVE,null
+JPY-currency,customer,1000,1000,0.00E+00,2024-11-13 11:04:31,null,JPY,ACTIVE,ACTIVE
+plan+recurring_addon,customer,1000,null,null,2024-11-13 11:05:26,2024-11-13 11:32:06,USD,ACTIVE,null
+plan+recurring_addon,customer,5000,1000,4000,2024-11-13 11:32:07,null,USD,ACTIVE,ACTIVE
+plan+RecurringAddon+coupon,customer,1000,null,null,2024-11-13 11:06:16,2024-11-13 11:47:51,USD,ACTIVE,null
+plan+RecurringAddon+coupon,customer,2500,1000,1500,2024-11-13 11:47:52,null,USD,ACTIVE,ACTIVE
+plan+Recurring_Addon+Charge(Flexi-disabled),customer,1000,null,null,2024-11-13 11:08:51,2024-11-13 11:44:34,USD,ACTIVE,null
+plan+Recurring_Addon+Charge(Flexi-disabled),customer,3000,1000,2000,2024-11-13 11:44:35,null,USD,ACTIVE,ACTIVE
+plan+Rec_Addon+onetimecoupon(flexi-disabled),customer,1000,null,null,2024-11-13 11:12:01,2024-11-13 11:48:24,USD,ACTIVE,null
+plan+Rec_Addon+onetimecoupon(flexi-disabled),customer,2500,1000,1500,2024-11-13 11:48:25,null,USD,ACTIVE,ACTIVE
+plan+1-billling-cycle_Addon,customer,1000,null,null,2024-11-13 11:33:21,2024-11-13 11:45:29,USD,ACTIVE,null
+plan+1-billling-cycle_Addon,customer,1000,1000,0.00E+00,2024-11-13 11:45:30,null,USD,ACTIVE,ACTIVE
+plan+charge(flexi-disabled),customer,1000,null,null,2024-11-13 11:34:11,2024-11-13 11:45:46,USD,ACTIVE,null
+plan+charge(flexi-disabled),customer,1000,1000,0.00E+00,2024-11-13 11:45:47,null,USD,ACTIVE,ACTIVE
