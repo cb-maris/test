@@ -3805,5 +3805,257 @@
       },
       "is_parent_resource" : true
     }
-  }
+  },
+  "subscription_mrr_daily_summary" : {
+      "properties" : {
+        "id" : {
+          "type" : "String",
+          "is_primary_key" : true,
+          "nullable" : false
+        },
+         "customer_id" : {
+          "type" : "string",
+          "nullable" : false,
+          "max_length" : 50
+        },
+        "subscription_id" : {
+          "type" : "string",
+          "nullable" : false,
+          "max_length" : 50
+        },
+        "reporting_time_zone":{
+          "type" : "string",
+          "nullable" : false,
+          "max_length" : 50
+        },
+        "reporting_date":{
+          "type" : "timestamp"
+        },
+        "status" : {
+          "type" : "string",
+          "nullable" : false
+        },
+        "status_previous" : {
+          "type" : "string",
+          "nullable" : false
+        }, 
+        "billing_currency_code" : {
+          "type" : "string",
+          "nullable" : false,
+          "max_length" : 3
+        },               
+        "mrr_billing_currency" :{
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        },        
+        "mrr_previous_billing_currency" :{
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        },
+        "exchange_rate" :{
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        },        
+        "exchange_rate_previous" :{
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        },   
+        "mrr" : {
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        },
+        "mrr_previous" : {
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        },
+        "mrr_difference" : {
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        }, 
+        "mrr_difference_from_exchange_rate" : {
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        },  
+        "mrr_difference_from_subscription_change" : {
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        }                       
+      },
+      "is_parent_resource" : true
+    }
+,
+"subscription_mrr_monthly_summary" : {
+      "properties" : {
+        "id" : {
+          "type" : "String",
+          "is_primary_key" : true,
+          "nullable" : false
+        },
+         "customer_id" : {
+          "type" : "string",
+          "nullable" : false,
+          "max_length" : 50
+        },
+        "subscription_id" : {
+          "type" : "string",
+          "nullable" : false,
+          "max_length" : 50
+        },
+        "reporting_time_zone":{
+          "type" : "string",
+          "nullable" : false,
+          "max_length" : 50
+        },
+        "reporting_month":{
+          "type" : "timestamp"
+        },
+        "status" : {
+          "type" : "string",
+          "nullable" : false
+        },
+        "status_previous" : {
+          "type" : "string",
+          "nullable" : false
+        }, 
+        "billing_currency_code" : {
+          "type" : "string",
+          "nullable" : false,
+          "max_length" : 3
+        },               
+        "mrr_billing_currency" :{
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        },        
+        "mrr_previous_billing_currency" :{
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        },
+        "exchange_rate" :{
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        },        
+        "exchange_rate_previous" :{
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        },   
+        "mrr" : {
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        },
+        "mrr_previous" : {
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        },
+        "mrr_difference" : {
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        }, 
+        "mrr_difference_from_exchange_rate" : {
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        },  
+        "mrr_difference_from_subscription_change" : {
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        }                       
+      },
+      "is_parent_resource" : true
+    }
+,
+    "subscription_mrr_changes" : {
+      "properties" : {
+        "id" : {
+          "type" : "long",
+          "is_primary_key" : true,
+          "nullable" : false
+        },
+         "customer_id" : {
+          "type" : "string",
+          "nullable" : false,
+          "max_length" : 50
+        },
+        "subscription_id" : {
+          "type" : "string",
+          "nullable" : false,
+          "max_length" : 50
+        },
+        "currency_code" : {
+          "type" : "string",
+          "nullable" : false,
+          "max_length" : 3
+        },
+        "status" : {
+          "type" : "string",
+          "nullable" : false
+        },
+        "status_previous" : {
+          "type" : "string",
+          "nullable" : false
+        },        
+        "mrr" : {
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        },
+        "mrr_previous" : {
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        },
+        "mrr_change" :{
+          "type" : "decimal",
+          "precision" : "(38, 9)",
+          "minimum_value" : -1000000000,
+          "maximum_value" : 1000000000
+        },
+        "record_start_at" : {
+          "type" : "timestamp"
+        },
+        "record_end_at" : {
+          "type" : "timestamp"
+        },
+        "record_recorded_at" : {
+          "type" : "timestamp"
+        }                        
+      },
+      "is_parent_resource" : true
+    }
 }
