@@ -3804,8 +3804,8 @@
         }
       },
       "is_parent_resource" : true
-    }
-  },
+    },
+  
   "subscription_mrr_daily_summary" : {
       "properties" : {
         "id" : {
@@ -4058,4 +4058,5 @@
       },
       "is_parent_resource" : true
     }
+  }
 }
