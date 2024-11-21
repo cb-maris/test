@@ -639,37 +639,6 @@
       "parent_resource": "subscriptions",
       "source_name": "discounts"
     },
-    "coupon_codes": {
-      "properties": {
-        "coupon_set_name": {
-          "type": "string",
-          "nullable": false,
-          "max_length": 50
-        },
-        "code": {
-          "type": "string",
-          "nullable": false,
-          "max_length": 50
-        },
-        "status": {
-          "type": "string",
-          "nullable": false,
-          "default": "not_redeemed"
-        },
-        "coupon_id": {
-          "type": "string",
-          "nullable": false,
-          "max_length": 100
-        },
-        "coupon_set_id": {
-          "type": "string",
-          "nullable": false,
-          "max_length": 50
-        }
-      },
-      "is_parent_resource": true,
-      "source_name": "coupon_code"
-    },
     "credit_note_line_item_discounts": {
       "properties": {
         "line_item_id": {
