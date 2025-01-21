@@ -3851,7 +3851,12 @@
           "nullable": false,
           "max_length": 50
         },
-        "reporting_time_zone": {
+        "reporting_currency_code": {
+          "type": "string",
+          "nullable": false,
+          "max_length": 50
+        },
+        "reporting_timezone": {
           "type": "string",
           "nullable": false,
           "max_length": 50
@@ -3946,7 +3951,13 @@
           "nullable": false,
           "max_length": 50
         },
-        "reporting_time_zone": {
+
+        "reporting_currency_code": {
+          "type": "string",
+          "nullable": false,
+          "max_length": 50
+        },
+        "reporting_timezone": {
           "type": "string",
           "nullable": false,
           "max_length": 50
